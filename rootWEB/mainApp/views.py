@@ -22,3 +22,7 @@ def widgets(request) :
 def blank(request) :
     print('debug >>> balnk')
     return render(request, 'main/page-blank-ex.html')
+
+def contacts_grid(request) :
+    print('debug >>> widgets')
+    return render(request, 'main/contacts_grid.html')
