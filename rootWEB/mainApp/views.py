@@ -18,3 +18,7 @@ def profile(request) :
 def widgets(request) :
     print('debug >>> widgets')
     return render(request, 'main/widgets.html')
+
+def blank(request) :
+    print('debug >>> balnk')
+    return render(request, 'main/page-blank-ex.html')
