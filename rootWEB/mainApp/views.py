@@ -26,3 +26,7 @@ def blank(request) :
 def contacts_grid(request) :
     print('debug >>> widgets')
     return render(request, 'main/contacts_grid.html')
+
+def index_h(request):
+    print('debug >>> index_h')
+    return render(request, 'main/index-horizontal.html')
